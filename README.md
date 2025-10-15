@@ -111,4 +111,4 @@ If using GitHub Pages, follow the [official guide for deployment](https://docs.g
 
 **GitHub Pages URL**: [https://ker-mari.github.io/personal-portfolio](https://ker-mari.github.io/personal-portfolio)
 
-**Demo Recording**: [https://drive.google.com/drive/folders/19uCvwLxLmNK4UpuXSuZnEkAxzt40urvC?usp=sharing](https://drive.google.com/drive/folders/19uCvwLxLmNK4UpuXSuZnEkAxzt40urvC?usp=sharing)
+**Demo Recording**: [https://drive.google.com/file/d/1sFONjWTkk6VxOLA_1o3z-H03at5NEgzB/view?usp=drive_link](https://drive.google.com/file/d/1sFONjWTkk6VxOLA_1o3z-H03at5NEgzB/view?usp=drive_link)
