@@ -107,4 +107,4 @@ bashnpm run deploy
 If using GitHub Pages, follow the official guide for deployment.
 Live Demo
 GitHub Pages URL: https://ker-mari.github.io/personal-portfolio
-Demo Recording: []([url](https://drive.google.com/drive/folders/19uCvwLxLmNK4UpuXSuZnEkAxzt40urvC?usp=drive_link))
+Demo Recording: []([https://drive.google.com/drive/folders/19uCvwLxLmNK4UpuXSuZnEkAxzt40urvC?usp=drive_link)
