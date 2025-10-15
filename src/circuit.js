@@ -5,6 +5,7 @@ if (!circuitContainer) {
 const gridSize = 20;
 const dots = [];
 let animationId;
+const MAX_DOTS = 8;
 
 function createTrail(x, y) {
   const trail = document.createElement('div');
@@ -19,7 +20,7 @@ function createTrail(x, y) {
 }
 
 function createCircuitDot() {
-  if (!circuitContainer) return;
+  if (!circuitContainer || dots.length >= MAX_DOTS) return;
   
   const dot = document.createElement('div');
   dot.className = 'circuit-dot';
@@ -76,7 +77,7 @@ function animateCircuitDots() {
   });
 }
 
-const dotInterval = setInterval(createCircuitDot, 2000);
+const dotInterval = setInterval(createCircuitDot, 3000);
 animationId = setInterval(animateCircuitDots, 16);
 
 window.addEventListener('beforeunload', () => {

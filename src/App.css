@@ -85,6 +85,17 @@ body {
   overflow: hidden;
 }
 
+/* Desktop Large (min-width: 1200px) */
+@media (min-width: 1200px) {
+  .app-container {
+    max-width: 1000px;
+  }
+  
+  .bento-grid {
+    gap: 18px;
+  }
+}
+
 .header {
   text-align: center;
   margin-bottom: 20px;
@@ -328,6 +339,55 @@ body {
 
 
 /* --- Responsive Design --- */
+
+/* Tablet (768px - 1024px) */
+@media (max-width: 1024px) and (min-width: 769px) {
+  .app-container {
+    max-width: 700px;
+  }
+  
+  .bento-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 14px;
+  }
+  
+  .item-1 {
+    grid-column: span 2;
+    grid-row: span 2;
+  }
+  
+  .item-2 {
+    grid-column: span 1;
+    grid-row: span 1;
+  }
+  
+  .item-3 {
+    grid-column: span 1;
+    grid-row: span 2;
+  }
+  
+  .item-4 {
+    grid-column: span 2;
+    grid-row: span 1;
+  }
+  
+  .item-5 {
+    grid-column: span 1;
+    grid-row: span 1;
+  }
+  
+  .item-6 {
+    grid-column: span 1;
+    grid-row: span 1;
+  }
+  
+  .cursorFollower,
+  .cursorFollowerDot {
+    display: none;
+  }
+}
+
+/* Mobile (max-width: 768px) */
 @media (max-width: 768px) {
   html, body {
     height: auto;
@@ -337,26 +397,80 @@ body {
   body {
     align-items: flex-start;
     padding: 10px;
+    background-size: 100% 100%, 15px 15px, 15px 15px;
   }
   
   .app-container {
     height: auto;
     overflow: auto;
+    max-width: 100%;
+  }
+  
+  .header h1 {
+    font-size: 2rem;
+  }
+  
+  .header p {
+    font-size: 1rem;
   }
   
   .bento-grid {
-    grid-template-columns: repeat(2, 1fr);
-    overflow: auto;
+    grid-template-columns: 1fr;
+    gap: 12px;
+    padding: 5px;
   }
   
   .bento-item {
     grid-column: span 1;
     grid-row: span 1;
+    padding: 15px;
   }
+  
+  .bento-item h3 {
+    font-size: 1.2rem;
+  }
+  
+  .profile-image {
+    margin-top: 20px;
+  }
+  
+  .profile-image img {
+    width: 80px;
+    height: 80px;
+  }
+  
+  .tech-logo {
+    width: 16px;
+    height: 16px;
+  }
+  
+  .cursorFollower,
+  .cursorFollowerDot {
+    display: none;
+  }
+}
 
-  .item-1 {
-    grid-column: span 2;
-    grid-row: span 1;
+/* Small Mobile (max-width: 480px) */
+@media (max-width: 480px) {
+  body {
+    padding: 5px;
+  }
+  
+  .header h1 {
+    font-size: 1.8rem;
+  }
+  
+  .bento-item {
+    padding: 12px;
+  }
+  
+  .bento-item h3 {
+    font-size: 1.1rem;
+  }
+  
+  .profile-image img {
+    width: 60px;
+    height: 60px;
   }
 }
 
