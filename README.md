@@ -41,12 +41,6 @@ The website is designed to be user-friendly, responsive, and visually appealing,
 **Reminder Section** (BentoGrid)
 - Motivational message: "Always choose to be good."
 
-### Planned Sections
-
-- **Projects Page**: Showcase of technical projects with descriptions, technologies used, and links to GitHub repositories or live demos
-- **Resume Section**: Downloadable PDF version of professional resume
-- **Contact Form**: Interactive form for direct communication
-
 ## 🛠️ Technologies Used
 
 This personal portfolio was built with the following technologies:
@@ -63,6 +57,7 @@ This personal portfolio was built with the following technologies:
 - **Bento Grid Layout**: Modern card-based grid layout for organized content presentation
 - **Animated Background**: Dynamic starfield effect creating an engaging visual experience
 - **Social Media Integration**: Direct links to professional social media profiles
+- **Minimal**: Minimal design and concise information
 
 ## 📋 Setup Instructions
 
